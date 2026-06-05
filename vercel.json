@@ -1,4 +1,7 @@
 {
+  "rewrites": [
+    { "source": "/itinerary", "destination": "/api/itinerary" }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
